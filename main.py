@@ -235,6 +235,6 @@ class TypingGames:
         self.window.blit(self.scoreBoard, (15, WINDOW_Y_LENGTH - 40))
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     tg = TypingGames()
     tg.run()
